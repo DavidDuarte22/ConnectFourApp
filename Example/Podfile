@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'ConnectFourApp_Example' do
+  pod 'ConnectFourApp', :path => '../'
+
+  target 'ConnectFourApp_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
