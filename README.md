@@ -22,7 +22,7 @@ pod 'ConnectFourApp'
 
 ## Author
 
-David Duarte, david.duarte@cognizant.com
+David Duarte, davidjulianduarte@gmail.com
 
 ## License
 
