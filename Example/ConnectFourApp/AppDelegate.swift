@@ -2,8 +2,6 @@
 //  AppDelegate.swift
 //  ConnectFourApp
 //
-//  Created by David Duarte on 11/29/2021.
-//  Copyright (c) 2021 David Duarte. All rights reserved.
 //
 
 import UIKit
