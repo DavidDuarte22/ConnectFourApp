@@ -1,0 +1,22 @@
+{
+  "name": "ConnectFourApp",
+  "version": "0.1.0",
+  "summary": "A short description of ConnectFourApp.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/David Duarte/ConnectFourApp",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "David Duarte": "david.duarte@cognizant.com"
+  },
+  "source": {
+    "git": "https://github.com/David Duarte/ConnectFourApp.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "ConnectFourApp/Classes/**/*"
+}

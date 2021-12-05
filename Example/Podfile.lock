@@ -1,0 +1,16 @@
+PODS:
+  - ConnectFourApp (0.1.0)
+
+DEPENDENCIES:
+  - ConnectFourApp (from `../`)
+
+EXTERNAL SOURCES:
+  ConnectFourApp:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ConnectFourApp: fd68bd40e57d98834d387a9c9110925e2e3a4ee8
+
+PODFILE CHECKSUM: 189c601a05c59638ed8192a2f6fb813526316a5d
+
+COCOAPODS: 1.10.2

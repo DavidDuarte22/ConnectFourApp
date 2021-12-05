@@ -1,0 +1,6 @@
+framework module ConnectFourApp {
+  umbrella header "ConnectFourApp-umbrella.h"
+
+  export *
+  module * { export * }
+}

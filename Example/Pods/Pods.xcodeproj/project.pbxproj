@@ -1,0 +1,773 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B8E7ED84282CE21B85CA95BEDAA1384 /* ConnectFourApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CD6853786147A8C81673E170A3B3BDA0 /* ConnectFourApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C6034DBEFAA8DB4EA4EDEBD473BCF41 /* Pods-ConnectFourApp_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A4A843A0E82CB84E04F12B6126470684 /* Pods-ConnectFourApp_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F9F7F783BF9A88EF336AAAEAECE8741 /* Pods-ConnectFourApp_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 46633D54EA43FBE8E32F78ACEF718ECC /* Pods-ConnectFourApp_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2FF6DA6BF63044A498869C4911C600E3 /* Pods-ConnectFourApp_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C0184D7E28D4E493FF6F67F3EF693B /* Pods-ConnectFourApp_Tests-dummy.m */; };
+		3010C9280F30C00FE0296D74484AE41E /* ConnectFourApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 885AD9F55311BB816738571893E89CBE /* ConnectFourApp-dummy.m */; };
+		335BFE24C19ABCAB96EE80D5E441FFB5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		4F6F6CAD39CC80FD8E0DD96F38DFA8B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		6D3B6CF83B468B86160C3D627272BAC6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		89C3633FA02C52FA8B6FE1FF246CCE57 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAB39266F409C7671C38DD9FE39726C /* Player.swift */; };
+		C8E92223420ADF8CA639288801DF5774 /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D4AF2537111EBAF60AE47EB86E00D0 /* Board.swift */; };
+		E471397E15606355FA28577B3D081C4C /* Pods-ConnectFourApp_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 002AC547A744B7B8F7CC088307A38274 /* Pods-ConnectFourApp_Example-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		072CBCE9FE0BD40EEBA1826F68F59CCC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88F76899F1400A3A4752517D46FC073F;
+			remoteInfo = ConnectFourApp;
+		};
+		68C06ADA014F3BF96253106303638D96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD5500112F5F20B634158F8A6343E13A;
+			remoteInfo = "Pods-ConnectFourApp_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		002AC547A744B7B8F7CC088307A38274 /* Pods-ConnectFourApp_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ConnectFourApp_Example-dummy.m"; sourceTree = "<group>"; };
+		015FB4A84473D86BC236AEDED5E808F8 /* Pods-ConnectFourApp_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ConnectFourApp_Example-Info.plist"; sourceTree = "<group>"; };
+		0D5F5F31F1C185406FA02DE5471DEF04 /* Pods-ConnectFourApp_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ConnectFourApp_Tests-Info.plist"; sourceTree = "<group>"; };
+		1508939B3D1A9F0C19F78640D901DE29 /* ConnectFourApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ConnectFourApp.release.xcconfig; sourceTree = "<group>"; };
+		1BB67B543E220A677B02E0A4D0EB1A24 /* Pods_ConnectFourApp_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ConnectFourApp_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		26431AF8A6E7D7B933FE289F4D6C7DFD /* Pods_ConnectFourApp_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ConnectFourApp_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		27646C66F3F8D5D8F98097B374D2FD04 /* ConnectFourApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ConnectFourApp.modulemap; sourceTree = "<group>"; };
+		4222B4322F2D3C198FE96B9E094CECB1 /* Pods-ConnectFourApp_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ConnectFourApp_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		46633D54EA43FBE8E32F78ACEF718ECC /* Pods-ConnectFourApp_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ConnectFourApp_Tests-umbrella.h"; sourceTree = "<group>"; };
+		494096743404737A979FF418A71E5608 /* Pods-ConnectFourApp_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ConnectFourApp_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		52750C1E75FD22DE64300FCF9045EE8E /* ConnectFourApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ConnectFourApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		55D4AF2537111EBAF60AE47EB86E00D0 /* Board.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Board.swift; path = ConnectFourApp/Classes/Board.swift; sourceTree = "<group>"; };
+		6897B7531DA7E3BF593D18775A0D1B6A /* Pods-ConnectFourApp_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ConnectFourApp_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		7098F27FF13201E4B2F69B444E252161 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		72093A7D0861972104618A0173A758C8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		77A78D41EDD4DFCAFFE2F32A410CDDA4 /* Pods-ConnectFourApp_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ConnectFourApp_Example-frameworks.sh"; sourceTree = "<group>"; };
+		7C6285BF7AB89100E7C27DAC60EEAEDB /* Pods-ConnectFourApp_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ConnectFourApp_Example.release.xcconfig"; sourceTree = "<group>"; };
+		7D308F26E33D4D4C70F8DF56CEA1DDB6 /* Pods-ConnectFourApp_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ConnectFourApp_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		7F52982C37F757824ABC3F2B063C3A36 /* Pods-ConnectFourApp_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ConnectFourApp_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		885AD9F55311BB816738571893E89CBE /* ConnectFourApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ConnectFourApp-dummy.m"; sourceTree = "<group>"; };
+		96226A115FE088A066A19B7647F8F125 /* Pods-ConnectFourApp_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ConnectFourApp_Tests.modulemap"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A2C0184D7E28D4E493FF6F67F3EF693B /* Pods-ConnectFourApp_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ConnectFourApp_Tests-dummy.m"; sourceTree = "<group>"; };
+		A4A843A0E82CB84E04F12B6126470684 /* Pods-ConnectFourApp_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ConnectFourApp_Example-umbrella.h"; sourceTree = "<group>"; };
+		A8FBC0B06AD56DFB240E64D3BD916084 /* Pods-ConnectFourApp_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ConnectFourApp_Example.modulemap"; sourceTree = "<group>"; };
+		AFCE6072F63572CB7553536EE9792CAE /* ConnectFourApp.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = ConnectFourApp.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		B2D392C23FC4B3A2D5BB0D72B2657121 /* ConnectFourApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ConnectFourApp.debug.xcconfig; sourceTree = "<group>"; };
+		BFAB39266F409C7671C38DD9FE39726C /* Player.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Player.swift; path = ConnectFourApp/Classes/Player.swift; sourceTree = "<group>"; };
+		CB0F23390C749935D91889B70B8DCDF4 /* Pods-ConnectFourApp_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ConnectFourApp_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CD6853786147A8C81673E170A3B3BDA0 /* ConnectFourApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ConnectFourApp-umbrella.h"; sourceTree = "<group>"; };
+		D1D05410E78D2FD45D3037DBFF304323 /* ConnectFourApp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ConnectFourApp-Info.plist"; sourceTree = "<group>"; };
+		F3CF1B9BB8D67810028803B7A3D3D626 /* Pods-ConnectFourApp_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ConnectFourApp_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		FA4807DC60CB003946D018246BC1AD32 /* ConnectFourApp-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ConnectFourApp-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		77E76C104EBB1F5DEA55AFF129CA3771 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F6F6CAD39CC80FD8E0DD96F38DFA8B0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7E9E197B4270D17543717C0B5FABF7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				335BFE24C19ABCAB96EE80D5E441FFB5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE5EA8A398096B277AF7F07F0AD23C4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D3B6CF83B468B86160C3D627272BAC6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4009AC625180CFF4C229003620FEFFC9 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				AFCE6072F63572CB7553536EE9792CAE /* ConnectFourApp.podspec */,
+				72093A7D0861972104618A0173A758C8 /* LICENSE */,
+				7098F27FF13201E4B2F69B444E252161 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6FCE5C5CE2302490CBA70738EC54BCD0 /* Pods-ConnectFourApp_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				96226A115FE088A066A19B7647F8F125 /* Pods-ConnectFourApp_Tests.modulemap */,
+				4222B4322F2D3C198FE96B9E094CECB1 /* Pods-ConnectFourApp_Tests-acknowledgements.markdown */,
+				6897B7531DA7E3BF593D18775A0D1B6A /* Pods-ConnectFourApp_Tests-acknowledgements.plist */,
+				A2C0184D7E28D4E493FF6F67F3EF693B /* Pods-ConnectFourApp_Tests-dummy.m */,
+				0D5F5F31F1C185406FA02DE5471DEF04 /* Pods-ConnectFourApp_Tests-Info.plist */,
+				46633D54EA43FBE8E32F78ACEF718ECC /* Pods-ConnectFourApp_Tests-umbrella.h */,
+				F3CF1B9BB8D67810028803B7A3D3D626 /* Pods-ConnectFourApp_Tests.debug.xcconfig */,
+				7D308F26E33D4D4C70F8DF56CEA1DDB6 /* Pods-ConnectFourApp_Tests.release.xcconfig */,
+			);
+			name = "Pods-ConnectFourApp_Tests";
+			path = "Target Support Files/Pods-ConnectFourApp_Tests";
+			sourceTree = "<group>";
+		};
+		792A53DDD707B2391623F13E71FCF4CF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				27646C66F3F8D5D8F98097B374D2FD04 /* ConnectFourApp.modulemap */,
+				885AD9F55311BB816738571893E89CBE /* ConnectFourApp-dummy.m */,
+				D1D05410E78D2FD45D3037DBFF304323 /* ConnectFourApp-Info.plist */,
+				FA4807DC60CB003946D018246BC1AD32 /* ConnectFourApp-prefix.pch */,
+				CD6853786147A8C81673E170A3B3BDA0 /* ConnectFourApp-umbrella.h */,
+				B2D392C23FC4B3A2D5BB0D72B2657121 /* ConnectFourApp.debug.xcconfig */,
+				1508939B3D1A9F0C19F78640D901DE29 /* ConnectFourApp.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ConnectFourApp";
+			sourceTree = "<group>";
+		};
+		A3D8B72D6F8DBD4E1C0A56583381FC95 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E5FFD7979FF89C9BCA4DD0CF0B1137DD /* ConnectFourApp */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		B9C3E885E4644B2AE7A9568922D5FC7F /* Pods-ConnectFourApp_Example */ = {
+			isa = PBXGroup;
+			children = (
+				A8FBC0B06AD56DFB240E64D3BD916084 /* Pods-ConnectFourApp_Example.modulemap */,
+				CB0F23390C749935D91889B70B8DCDF4 /* Pods-ConnectFourApp_Example-acknowledgements.markdown */,
+				494096743404737A979FF418A71E5608 /* Pods-ConnectFourApp_Example-acknowledgements.plist */,
+				002AC547A744B7B8F7CC088307A38274 /* Pods-ConnectFourApp_Example-dummy.m */,
+				77A78D41EDD4DFCAFFE2F32A410CDDA4 /* Pods-ConnectFourApp_Example-frameworks.sh */,
+				015FB4A84473D86BC236AEDED5E808F8 /* Pods-ConnectFourApp_Example-Info.plist */,
+				A4A843A0E82CB84E04F12B6126470684 /* Pods-ConnectFourApp_Example-umbrella.h */,
+				7F52982C37F757824ABC3F2B063C3A36 /* Pods-ConnectFourApp_Example.debug.xcconfig */,
+				7C6285BF7AB89100E7C27DAC60EEAEDB /* Pods-ConnectFourApp_Example.release.xcconfig */,
+			);
+			name = "Pods-ConnectFourApp_Example";
+			path = "Target Support Files/Pods-ConnectFourApp_Example";
+			sourceTree = "<group>";
+		};
+		BF8A2672409F0219E80A0A1E4D4137D9 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B9C3E885E4644B2AE7A9568922D5FC7F /* Pods-ConnectFourApp_Example */,
+				6FCE5C5CE2302490CBA70738EC54BCD0 /* Pods-ConnectFourApp_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				A3D8B72D6F8DBD4E1C0A56583381FC95 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				F88E096EC5088BCE577BAD991C320B92 /* Products */,
+				BF8A2672409F0219E80A0A1E4D4137D9 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E5FFD7979FF89C9BCA4DD0CF0B1137DD /* ConnectFourApp */ = {
+			isa = PBXGroup;
+			children = (
+				55D4AF2537111EBAF60AE47EB86E00D0 /* Board.swift */,
+				BFAB39266F409C7671C38DD9FE39726C /* Player.swift */,
+				4009AC625180CFF4C229003620FEFFC9 /* Pod */,
+				792A53DDD707B2391623F13E71FCF4CF /* Support Files */,
+			);
+			name = ConnectFourApp;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		F88E096EC5088BCE577BAD991C320B92 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52750C1E75FD22DE64300FCF9045EE8E /* ConnectFourApp.framework */,
+				26431AF8A6E7D7B933FE289F4D6C7DFD /* Pods_ConnectFourApp_Example.framework */,
+				1BB67B543E220A677B02E0A4D0EB1A24 /* Pods_ConnectFourApp_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1D783859CB94FF146256726F21733F2F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C6034DBEFAA8DB4EA4EDEBD473BCF41 /* Pods-ConnectFourApp_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76ECC80CA1DF8504E7275CC011D7A497 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F9F7F783BF9A88EF336AAAEAECE8741 /* Pods-ConnectFourApp_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4261342CA97E89991BF6EBE0EA46A25 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B8E7ED84282CE21B85CA95BEDAA1384 /* ConnectFourApp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		88F76899F1400A3A4752517D46FC073F /* ConnectFourApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DBE428831E2CE940F5B04DD429FFD32 /* Build configuration list for PBXNativeTarget "ConnectFourApp" */;
+			buildPhases = (
+				C4261342CA97E89991BF6EBE0EA46A25 /* Headers */,
+				A785C272BAB48ED840605894E4492473 /* Sources */,
+				77E76C104EBB1F5DEA55AFF129CA3771 /* Frameworks */,
+				A1E688728580EACD67C9C1A4561B66E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ConnectFourApp;
+			productName = ConnectFourApp;
+			productReference = 52750C1E75FD22DE64300FCF9045EE8E /* ConnectFourApp.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AD5500112F5F20B634158F8A6343E13A /* Pods-ConnectFourApp_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0035D5EE90050039637EEB128FAB71FF /* Build configuration list for PBXNativeTarget "Pods-ConnectFourApp_Example" */;
+			buildPhases = (
+				1D783859CB94FF146256726F21733F2F /* Headers */,
+				D4C7D2BA32F7751E43FC45513F24F344 /* Sources */,
+				A7E9E197B4270D17543717C0B5FABF7B /* Frameworks */,
+				103461BC3135CA56399D2642C7F00B83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE33DFBEB43CF1F980C4F83E26ACC5D3 /* PBXTargetDependency */,
+			);
+			name = "Pods-ConnectFourApp_Example";
+			productName = "Pods-ConnectFourApp_Example";
+			productReference = 26431AF8A6E7D7B933FE289F4D6C7DFD /* Pods_ConnectFourApp_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BD62D5CC59283E94741900AB87065427 /* Pods-ConnectFourApp_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3223525120B0B41BA6ACFA3481B80122 /* Build configuration list for PBXNativeTarget "Pods-ConnectFourApp_Tests" */;
+			buildPhases = (
+				76ECC80CA1DF8504E7275CC011D7A497 /* Headers */,
+				EBAB583021265C528BDFE492C614B62E /* Sources */,
+				EE5EA8A398096B277AF7F07F0AD23C4F /* Frameworks */,
+				FB78126B3D8AEC7DCDAC2093EEF81A1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8FDC88CA1FC5D284DA05399D1A1A83E6 /* PBXTargetDependency */,
+			);
+			name = "Pods-ConnectFourApp_Tests";
+			productName = "Pods-ConnectFourApp_Tests";
+			productReference = 1BB67B543E220A677B02E0A4D0EB1A24 /* Pods_ConnectFourApp_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = F88E096EC5088BCE577BAD991C320B92 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				88F76899F1400A3A4752517D46FC073F /* ConnectFourApp */,
+				AD5500112F5F20B634158F8A6343E13A /* Pods-ConnectFourApp_Example */,
+				BD62D5CC59283E94741900AB87065427 /* Pods-ConnectFourApp_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		103461BC3135CA56399D2642C7F00B83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1E688728580EACD67C9C1A4561B66E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB78126B3D8AEC7DCDAC2093EEF81A1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A785C272BAB48ED840605894E4492473 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8E92223420ADF8CA639288801DF5774 /* Board.swift in Sources */,
+				3010C9280F30C00FE0296D74484AE41E /* ConnectFourApp-dummy.m in Sources */,
+				89C3633FA02C52FA8B6FE1FF246CCE57 /* Player.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4C7D2BA32F7751E43FC45513F24F344 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E471397E15606355FA28577B3D081C4C /* Pods-ConnectFourApp_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBAB583021265C528BDFE492C614B62E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FF6DA6BF63044A498869C4911C600E3 /* Pods-ConnectFourApp_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8FDC88CA1FC5D284DA05399D1A1A83E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ConnectFourApp_Example";
+			target = AD5500112F5F20B634158F8A6343E13A /* Pods-ConnectFourApp_Example */;
+			targetProxy = 68C06ADA014F3BF96253106303638D96 /* PBXContainerItemProxy */;
+		};
+		DE33DFBEB43CF1F980C4F83E26ACC5D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ConnectFourApp;
+			target = 88F76899F1400A3A4752517D46FC073F /* ConnectFourApp */;
+			targetProxy = 072CBCE9FE0BD40EEBA1826F68F59CCC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		233CE3A7152B6C43EED70C208076708B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2D392C23FC4B3A2D5BB0D72B2657121 /* ConnectFourApp.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ConnectFourApp/ConnectFourApp-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ConnectFourApp/ConnectFourApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ConnectFourApp/ConnectFourApp.modulemap";
+				PRODUCT_MODULE_NAME = ConnectFourApp;
+				PRODUCT_NAME = ConnectFourApp;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5B19EA2BC292FE2777A89D677AB7A84F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3CF1B9BB8D67810028803B7A3D3D626 /* Pods-ConnectFourApp_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ConnectFourApp_Tests/Pods-ConnectFourApp_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ConnectFourApp_Tests/Pods-ConnectFourApp_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5F3DB3D8EAC0C5F9FA7D3C48D897D553 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D308F26E33D4D4C70F8DF56CEA1DDB6 /* Pods-ConnectFourApp_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ConnectFourApp_Tests/Pods-ConnectFourApp_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ConnectFourApp_Tests/Pods-ConnectFourApp_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7DB1EE3ADB22D99279DEB9C3D76257B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F52982C37F757824ABC3F2B063C3A36 /* Pods-ConnectFourApp_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ConnectFourApp_Example/Pods-ConnectFourApp_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ConnectFourApp_Example/Pods-ConnectFourApp_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BA76E19CBC7FD9A64DA528A45FF1E7A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1508939B3D1A9F0C19F78640D901DE29 /* ConnectFourApp.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ConnectFourApp/ConnectFourApp-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ConnectFourApp/ConnectFourApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ConnectFourApp/ConnectFourApp.modulemap";
+				PRODUCT_MODULE_NAME = ConnectFourApp;
+				PRODUCT_NAME = ConnectFourApp;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		E965DA4922A7FBD136695BF49EBB9703 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C6285BF7AB89100E7C27DAC60EEAEDB /* Pods-ConnectFourApp_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ConnectFourApp_Example/Pods-ConnectFourApp_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ConnectFourApp_Example/Pods-ConnectFourApp_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0035D5EE90050039637EEB128FAB71FF /* Build configuration list for PBXNativeTarget "Pods-ConnectFourApp_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DB1EE3ADB22D99279DEB9C3D76257B7 /* Debug */,
+				E965DA4922A7FBD136695BF49EBB9703 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3223525120B0B41BA6ACFA3481B80122 /* Build configuration list for PBXNativeTarget "Pods-ConnectFourApp_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B19EA2BC292FE2777A89D677AB7A84F /* Debug */,
+				5F3DB3D8EAC0C5F9FA7D3C48D897D553 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DBE428831E2CE940F5B04DD429FFD32 /* Build configuration list for PBXNativeTarget "ConnectFourApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				233CE3A7152B6C43EED70C208076708B /* Debug */,
+				BA76E19CBC7FD9A64DA528A45FF1E7A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
