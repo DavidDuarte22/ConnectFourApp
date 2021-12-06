@@ -122,6 +122,7 @@ class BoardTests: XCTestCase {
   }
   
   func testHasFinished_WinB_Diagonal_OK() {
+    board.updateCurrentPlayer()
     let _ = board.add(chip: players[1].color, in: 0)
     let _ = board.add(chip: players[0].color, in: 1)
     let _ = board.add(chip: players[1].color, in: 1)
@@ -137,7 +138,7 @@ class BoardTests: XCTestCase {
     //   O X X
     // O X X O
     board.updateCurrentPlayer()
-    XCTAssertEqual(GameResult.playerAWin, board.hasFinished())
+    XCTAssertEqual(GameResult.playerBWin, board.hasFinished())
   }
   
   func testHasFinished_Draw_OK() {
