@@ -2,7 +2,6 @@
 //  Board.swift
 //  ConnectFourApp
 //
-//  Created by David Duarte on 30/11/2021.
 //
 
 import Foundation
