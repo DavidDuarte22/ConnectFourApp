@@ -1,9 +1,7 @@
 # ConnectFourApp
 
-[![CI Status](https://img.shields.io/travis/David Duarte/ConnectFourApp.svg?style=flat)](https://travis-ci.org/David Duarte/ConnectFourApp)
-[![Version](https://img.shields.io/cocoapods/v/ConnectFourApp.svg?style=flat)](https://cocoapods.org/pods/ConnectFourApp)
-[![License](https://img.shields.io/cocoapods/l/ConnectFourApp.svg?style=flat)](https://cocoapods.org/pods/ConnectFourApp)
-[![Platform](https://img.shields.io/cocoapods/p/ConnectFourApp.svg?style=flat)](https://cocoapods.org/pods/ConnectFourApp)
+Coded in 5 days. 
+Remaining features: Improve UI, finish and improve Unit Tests with Mocks and Stubs. Only happy paths tested
 
 ## Example
 
